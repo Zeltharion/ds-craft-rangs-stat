@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client'
-import { App } from './app.tsx'
 import './globals.css'
+import { AppProviders } from './providers/app-providers'
 
-createRoot(document.getElementById('root')!).render(<App />)
+createRoot(document.getElementById('root')!).render(<AppProviders />)
